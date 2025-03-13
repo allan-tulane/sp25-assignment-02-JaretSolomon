@@ -1,4 +1,4 @@
-from . import *
+from main import *
 
 #### Iterative solution test
 def test_parens_match_iterative():
@@ -23,7 +23,7 @@ def test_parens_match_scan():
     assert parens_match_scan([]) == True
 
 
-#### Divide and conquer test
+#### Divide and conquer solution test
 def test_parens_match_dc():
     assert parens_match_dc(['(', ')']) == True
     assert parens_match_dc(['(']) == False
